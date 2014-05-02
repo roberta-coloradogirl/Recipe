@@ -1,0 +1,9 @@
+/* Created on Apr 1, 2014 6:43:28 PM */
+
+body { background-color: #9BF09B; 
+          background-image:url("./Background_marb091.jpg"); 
+          font-family:"Times New Roman", Times, serif;}
+a:link {color:#FF0000;}        /* unvisited link    - red          */
+a:visited {color:#00FF00;}   /* visited link        - lime green*/
+a:hover {color:#FF00FF;}    /* mouse over link - magenta  */
+a:active {color:#0000FF;}   /* selected link      -  blue       */ 

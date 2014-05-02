@@ -1,0 +1,111 @@
+/* Created on Apr 1, 2014 7:55:28 PM */
+
+body {
+    font-family: sans-serif;
+    background-color: #EED3D3;
+    width: 99%;
+    background-image:url("Background_marb091.jpg");
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    width: 75%;
+}
+
+a:link {
+    color: #002Eb8;
+}
+
+a:visited {
+    color: #8a00b8;
+}
+
+a:hover {
+    color: #ff6633;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.10em;
+    
+}
+
+.iQuant {
+    font-weight: bold;
+    font-size: 1em
+}
+
+.iType {
+    font-size: 1.0em;
+    font-style: italic;
+}
+
+.tLink {
+    font-size: 1.1em;
+}
+
+.recipe {
+    background-image:url("recipeImage02.gif")  ;
+    background-repeat:no-repeat;
+    position:fixed
+    display:block;
+    width:100%;
+    height:175%;
+}
+.recipe h2 {
+    position:relative;
+    left:20%;
+    top:25%;
+}
+.recipe ul {
+    position:relative;
+    left:2%;
+    top:30%;
+}
+.recipe ol {
+    position:relative;
+    left:4%;
+    top:50%;
+}    
+
+#tContents {
+    text-align: center;
+}
+
+#tContents li {
+    font-family: serif;
+    font-size: 1.10em;}
+}
+
+.navbar ul { list-style:none;
+background-color:#FF99FF;
+text-align:center;
+padding:0px;
+width:90%;
+border: 1px;}
+
+.navbar ul li { display:inline;  }
+.navbar ul li a { /*Increase Clickable Area*/
+padding:0px;
+padding-left:15px;
+padding-right:15px;
+/*Remove the Underline for the Link*/
+text-decoration:none;
+color:#000;
+background:#FF99FF;
+display:inline-block;
+border: 2px "solid double" red }
+/*On Mouse Over the Link*/
+.navbar ul li a:hover { color:#ff6633f;
+}
